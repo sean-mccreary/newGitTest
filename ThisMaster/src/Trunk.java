@@ -7,9 +7,10 @@ public class Trunk {
 		this.tree = aTree;
 	}
 	public int numInForest(String treeName) {
-		if (treeName.compairTo(aTree) == 0) {
+		if (treeName.compareTo(this.tree) == 0) {
 			return 0;
 		}
+		return 1;
 	}
 
 }

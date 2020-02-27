@@ -5,11 +5,11 @@ public class Branches extends Trunk {
 		super(aTree);
 		
 	}
-	public double howHigh(aTree) {
+	public double howHigh(String aTree) {
 		return 0.0;
 	}
-	public String whoDis(aTree) {
-		return this.aTree;
+	public String whoDis(String aTree) {
+		return this.tree;
 	}
 	
 }
