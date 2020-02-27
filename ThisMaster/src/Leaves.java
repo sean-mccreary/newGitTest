@@ -5,6 +5,11 @@ public class Leaves extends Branches {
 		super(aLeaf);
 		
 	}
+	public String leafShape(aTree) {
+		String leaf = "Leaf shaped";
+		return leaf;
+		
+	}
 	
 
 }
